@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Header */
+#header{
+  overflow: hidden;
+  background-color: rgb(10, 132, 254);
+  padding: 20px 10px;
+}
+#header h2, #header li{
+  float: left;
+  text-align: center;
+  padding: 12px;
+}
+#header h2{
+  color: white;
+}
+#nav-menu{
+  float: right;
+}
+#nav-menu li{
+  list-style:none;
+  color: black;
+}
+
+/* About Me Section */
+#about-h2{
+  margin: 10px;
+}
+#about-section{
+  overflow: hidden;
+}
+#about-section img, #right-section{
+  padding: 10px;
+}
+#image-section{
+  float:left; 
+  margin-right:10px;
+  margin-top: 20px;
+  width:240px;
+}
+#right-section{
+  margin:0 10px;
+}
+
+/* Skills */
+#skill-h2{
+  margin: 10px;
+}
+#skill-section{
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+}
+#skill-section ul{
+  overflow: hidden;
+}
+#skill-section li{
+  padding: 18px;
+  display: inline-block;
+  width: 22%;
+}
+
+/* Projects */
+#project-h2{
+  margin: 10px;
+}
+#project-image{
+  float:left; 
+  height:auto;
+  width:150px; 
+  margin: 0 10px;
+} 
+#project-section{
+  width:100%;
+  height:auto;
+}
+#right{
+  padding: 0 10px;
+}
+
+/* Contact Me */
+#contact-h2{
+  margin: 10px 10px 0 10px;
+}
+#contact-section{
+  padding: 20px 10px;
+}
+label{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+#email-button{
+  background-color: rgb(10, 132, 254);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  float: center;
+  margin: 5px;
+}
+
+/* Footer */
+#footer{
+  overflow: hidden;
+  background-color: rgb(10, 132, 254);
+  padding: 20px 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Responsive page design */
+@media screen and (max-width: 320px) {
+  #header h2, #nav-menu, #image-section{
+    float: none;
+  };
+}
